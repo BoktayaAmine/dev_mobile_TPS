@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Travail à rendre</string>
+    <string name="sex"> Sex :</string>
+    <string name="nom_et_prenom"> Nom et Prenom</string>
+    <array name="sex">
+        <item>male</item>
+        <item>female</item>
+    </array>
 </resources>
