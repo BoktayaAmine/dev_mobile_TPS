@@ -33,7 +33,6 @@ public class ListProduit extends AppCompatActivity {
         setContentView(R.layout.list_produit);
 
         ps = new ProduitService();
-        // Ajout de produits (exemple)
         ps.create(new Produit("BARBECUED CHICKEN PIZZA", 3, R.drawable.pizza1, "35 min",
                 "- 2 boneless skinless chicken breast halves (6 ounces each)\n- 1/4 teaspoon pepper\n- 1 cup barbecue sauce, divided\n- 1 tube (13.8 ounces) refrigerated pizza crust\n- 2 teaspoons olive oil\n-2 cups shredded Gouda cheese\n-1 small red onion, halved and thinly sliced\n-1/4 cup minced fresh cilantro",
                 "So fast and so easy with refrigerated pizza crust, these saucy, smoky pizzas make quick fans with their hot-off-the-grill, rustic flavor.",
@@ -103,7 +102,7 @@ public class ListProduit extends AppCompatActivity {
 
                 Intent intent = new Intent(ListProduit.this, InfosActivity.class);
 
-                intent.putExtra("photo", photo); // Les ressources (entiers) peuvent être envoyées directement
+                intent.putExtra("photo", photo);
                 intent.putExtra("nom", nom);
                 intent.putExtra("description", description);
                 intent.putExtra("detailsIngred", detailsIngred);

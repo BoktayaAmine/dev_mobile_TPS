@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Thème de l'application pour le mode nuit -->
+    <style name="Theme.StarsProject" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Personnalisation du thème nuit -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Personnalisation de la Toolbar -->
+        <item name="toolbarStyle">@style/Widget.StarsProject.Toolbar</item>
+    </style>
+
+    <!-- Style personnalisé pour la Toolbar en mode nuit -->
+    <style name="Widget.StarsProject.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+</resources>

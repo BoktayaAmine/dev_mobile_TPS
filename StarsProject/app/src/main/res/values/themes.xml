@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StarsProject" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Personnalisation du thème -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Utilise la couleur rouge -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Rouge foncé -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

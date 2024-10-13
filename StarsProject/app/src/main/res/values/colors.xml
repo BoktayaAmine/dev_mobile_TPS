@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Couleurs Principales -->
+
+    <!-- Couleurs Supplémentaires (Optionnel) -->
+    <color name="colorPrimaryLight">#C5CAE9</color> <!-- Indigo clair -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Blanc -->
+    <color name="colorTextPrimary">#212121</color> <!-- Noir légèrement gris -->
+    <color name="colorTextSecondary">#757575</color> <!-- Gris moyen -->
+    <color name="colorPrimary">#F44336</color> <!-- Rouge pour la toolbar -->
+    <color name="colorPrimaryDark">#D32F2F</color> <!-- Rouge foncé -->
+    <color name="colorAccent">#FF4081</color>
+</resources>
+
+
